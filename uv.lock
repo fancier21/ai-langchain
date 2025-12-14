@@ -13,6 +13,7 @@ dependencies = [
     { name = "langchain-openai" },
     { name = "langgraph" },
     { name = "pydantic" },
+    { name = "requests" },
 ]
 
 [package.metadata]
@@ -23,6 +24,7 @@ requires-dist = [
     { name = "langchain-openai", specifier = ">=1.1.0" },
     { name = "langgraph", specifier = ">=1.0.4" },
     { name = "pydantic", specifier = ">=2.12.5" },
+    { name = "requests", specifier = ">=2.32.5" },
 ]
 
 [[package]]
